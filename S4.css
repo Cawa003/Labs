@@ -1,0 +1,13 @@
+.calculator {display: grid; grid-template-columns: repeat(4, 25px 1px); grid-template-rows: repeat(6, 18px 1px);
+background-color: #444444; color: white; text-align: center;}
+.field {grid-column-start: 1; grid-column-end: 9; grid-row-start: 1; grid-row-end: 2;
+text-align: right;}
+.button {background-color: DimGray;}
+.one {background-color: gray;}
+.zero {grid-column-start: 1; grid-column-end: 4; grid-row-start: 11; grid-row-end: 12; background-color: gray;}
+.orange {background-color: orange;}
+.line1 {grid-column-start: 1; grid-column-end: 9; grid-row-start: 2; grid-row-end: 3;}
+.line2 {grid-column-start: 1; grid-column-end: 9; grid-row-start: 4; grid-row-end: 5;}
+.line3 {grid-column-start: 1; grid-column-end: 9; grid-row-start: 6; grid-row-end: 7;}
+.line4 {grid-column-start: 1; grid-column-end: 9; grid-row-start: 8; grid-row-end: 9;}
+.line5 {grid-column-start: 1; grid-column-end: 9; grid-row-start: 10; grid-row-end: 11;}
